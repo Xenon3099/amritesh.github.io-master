@@ -1,3 +1,3 @@
 This is my personal website
 
-If you wanna check it out : amritesh-dasari.github.io
+If you wanna check it out : https://amritesh-dasari.github.io
