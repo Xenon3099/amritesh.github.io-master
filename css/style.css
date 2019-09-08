@@ -48,7 +48,11 @@
   font-size: 4em;
 }
 
-#resume{
+#resume1{
+  font-size: 4em;
+}
+
+#resume2{
   font-size: 4em;
 }
 
@@ -149,7 +153,10 @@
   #about-me{
     font-size: 4vw;
   }
-  #resume{
+  #resume1{
+    font-size: 4vw;
+  }
+  #resume2{
     font-size: 4vw;
   }
   .social-links{
@@ -193,7 +200,10 @@
   #about-me{
     font-size: 5.3vw;
   }
-  #resume{
+  #resume1{
+    font-size: 5.3vw;
+  }
+  #resume2{
     font-size: 5.3vw;
   }
   .social-links{
