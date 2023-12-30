@@ -23,13 +23,13 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-6'>
-                <li>Vellore Institute of Technology, Amaravati <i>(Bachelor of Technology)</i></li>
-                <ul>
-                    <li>GPA: 8.9/10</li>
-                </ul>
                 <li>University of Illinois, Urbana-Champaign <i>(Master of Computer Science)</i></li>
                 <ul>
                     <li>GPA: 3.43/4</li>
+                </ul>
+                <li>Vellore Institute of Technology, Amaravati <i>(Bachelor of Technology)</i></li>
+                <ul>
+                    <li>GPA: 8.9/10</li>
                 </ul>
             </ul>
         )
@@ -71,7 +71,7 @@ const AboutSection = () => {
                 <Image src='/images/Computer.png' width={500} height={500} />
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                    <p className='text-base lg:text-lg'>
+                    <p className='text-base lg:text-lg text-justify'>
                         I am a distributed systems engineer and backend developer with experience in technologies like Python,
                         Kafka, PostgreSQL, Docker, Kubernetes, React, Django, and more. I have a passion for creating resilient and
                         fault-tolerant systems. As a lifelong learner, I continuously expand my knowledge and skills including machine learning,
