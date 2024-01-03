@@ -6,8 +6,7 @@ const ProjectCard = ({ title, description, gitUrl }) => {
     return (
         <div>
             <div
-                className="h-52 md:h-72 rounded-t-xl relative group bg-gradient-to-br from-blue-700 via-purple-700 to-red-700"
-            // style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+                className="h-52 md:h-72 rounded-t-xl relative group bg-gradient-to-br from-blue-800 via-purple-800 to-red-800"
             >
                 <div className="text-center absolute top-0 left-0 w-full h-full text-xl font-bold text-white mt-4 mb-8 md:mb-12">
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -23,7 +22,7 @@ const ProjectCard = ({ title, description, gitUrl }) => {
                     </Link>
                 </div>
             </div>
-            <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
+            <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4">
                 <h5 className="text-xl font-semibold mb-2">{title}</h5>
                 <p className="text-[#ADB7BE]">{description}</p>
             </div>
