@@ -15,6 +15,7 @@ const TAB_DATA = [
                 <li>PostgreSQL</li>
                 <li>Kubernetes</li>
                 <li>Kafka</li>
+                <li>Spring Boot</li>
             </ul>
         )
     },
@@ -51,6 +52,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-6'>
                 <li><a href="https://www.credly.com/badges/0138781d-9481-4b1e-b7bb-9768614cd08d">IBM Master the Mainframe Challenge, 2020</a></li>
                 <li><a href="https://www.udemy.com/certificate/UC-c2e1003e-98a4-4a2a-9b2f-a55672f464a8/">Flutter & Dart - The Complete Flutter App Development Course, Udemy</a></li>
+                <li><a href="https://www.udemy.com/certificate/UC-1f276f43-488d-448a-ad9a-0345fceef665/">Building Real-Time REST APIs with Spring Boot - Blog App, Udemy</a></li>
             </ul>
         )
     },

@@ -54,6 +54,13 @@ const projectsData = [
         tag: ["All", "Mobile"],
         gitUrl: "https://github.com/amritesh-dasari/Diabetic-Retinopathy-Diagnosis",
     },
+    {
+        id: 8,
+        title: "Blog Application",
+        description: "Backend REST API implementation for a Blog Application based on Spring Boot and MySQL.",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/amritesh-dasari/Springboot-Blog",
+    },
 ]
 
 const ProjectsSection = () => {
@@ -107,7 +114,7 @@ const ProjectsSection = () => {
                         variants={cardVariants}
                         initial="initial"
                         animate={isInView ? "animate" : "initial"}
-                        transition={{ duration: 0.3, delay: index * 0.5 }}
+                        transition={{ duration: 0.3, delay: index * 0.25 }}
                     >
                         <ProjectCard
                             key={project.id}
